@@ -1,0 +1,11 @@
+portfolio_home:
+    pattern:  /
+    defaults: { _controller: AcmePortfolioBundle:Home:index }
+
+portfolio_about:
+    pattern:  /about
+    defaults: { _controller: AcmePortfolioBundle:Home:about }
+
+portfolio_contact:
+    pattern:  /contact
+    defaults: { _controller: AcmePortfolioBundle:Home:contact }
